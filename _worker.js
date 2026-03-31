@@ -18,7 +18,7 @@ export default {
 
     const incomingUrl = new URL(request.url);
     const path = incomingUrl.pathname.replace(/^\/+/, "");
-    const targetUrl = new URL(`https://58ce-42-96-57-91.ngrok-free.app/${path}${incomingUrl.search}`);
+    const targetUrl = new URL(`https://gitprovpn.github.io/attt-office-all-in-one/${path}${incomingUrl.search}`);
 
     const headers = new Headers();
     for (const [k, v] of request.headers.entries()) {
